@@ -25,7 +25,7 @@
 
 host, body {
   background-color: var(--background-color);
-  color: var(--on-surface-color);
+  color: white;
   font-family: 'Inter', 'Helvetica Neue', sans-serif;
   margin: 0;
   display: flex;
@@ -38,25 +38,25 @@ host, body {
 .app-container {
   width: 100%;
   max-width: 500px;
-  background-color: var(--surface-color);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   padding: 1rem;
   border-radius: 12px;
+  background-color: #202124;
 }
 
 .header {
   padding: 0.5rem 1.5rem;
   text-align: center;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid white;
 }
 
 .title {
   font-size: 1.25rem;
   font-weight: 500;
   margin: 0;
-  color: var(--text-muted-color);
+  color: white;
 }
 
 .main {
@@ -69,6 +69,7 @@ host, body {
   grid-template-columns: 1fr repeat(3, auto);
   gap: 1rem;
   align-items: center;
+  color: white;
 }
 
 .scoreboard-header {
@@ -97,10 +98,10 @@ host, body {
 }
 
 .team-name.team-a, .score-cell.team-a {
-  color: var(--team-a-color);
+  color: white;
 }
 .team-name.team-b, .score-cell.team-b {
-  color: var(--team-b-color);
+  color: white;
 }
 
 .score-cell {
@@ -118,7 +119,7 @@ host, body {
   font-size: 2.5rem;
   font-weight: 900;
   font-style: italic;
-  color: var(--on-surface-color);
+  color: white;
   border-radius: 8px;
   padding: 0.5rem 1rem;
   text-align: center;
@@ -139,12 +140,12 @@ host, body {
   justify-content: center;
   gap: 1rem;
   padding: 1rem 1.5rem;
-  border-top: 1px solid #444;
+  border-top: 1px solid white;
   margin-top: auto;
 }
 
 .icon-button {
-  background-color: transparent;
+  background-color: white;
   border: none;
   border-radius: 50%;
   width: 44px;
@@ -187,6 +188,7 @@ host, body {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.9rem;
+  color: white;
 }
 
 .winner-message {

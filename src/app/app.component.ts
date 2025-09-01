@@ -18,8 +18,8 @@ export class AppComponent {
   teamAPoints = signal(0);
   teamBPoints = signal(0);
 
-  goldenPoint = signal(false);
-  bestOfThree = signal(true);
+  goldenPoint = signal(true);
+  bestOfThree = signal(false);
   tieBreak = signal(false);
   winner = signal<string | null>(null);
   scoringTeam = signal<'A' | 'B' | null>(null);
