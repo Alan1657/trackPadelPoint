@@ -89,6 +89,7 @@ host, body {
   grid-column: 1 / -1;
   display: contents;
   cursor: pointer;
+  user-select: none;
 }
 
 .team-name {
